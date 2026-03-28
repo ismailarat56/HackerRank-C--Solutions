@@ -11,12 +11,12 @@
 #include <algorithm>
 using namespace std;
 
-//----- BENİM ÇÖZÜMÜM BURADAN BAŞLIYOR -----
+//-----MY SOLUTION STARTS HERE -----
 int solveMeFirst(int a, int b) {
 
   return a+b;
 }
-//-------- BENİM ÇÖZÜMÜM BURADA BİTİYOR --------
+//-------- MY SOLUTION ENDS HERE--------
 int main() {
   int num1, num2;
   int sum;
