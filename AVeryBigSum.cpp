@@ -12,7 +12,7 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-//----- BENİM ÇÖZÜMÜM BURADAN BAŞLIYOR -----
+//-----MY SOLUTION STARTS HERE-----
 long aVeryBigSum(vector<long> ar) {
 long sum=0;
 
@@ -21,7 +21,7 @@ for(int i=0;i<ar.size();i++){
 }
 return sum;
 }
-//-------- BENİM ÇÖZÜMÜM BURADA BİTİYOR --------
+//-------- MY SOLUTION ENDS HERE --------
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
