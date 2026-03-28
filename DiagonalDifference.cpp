@@ -13,7 +13,7 @@ string rtrim(const string &);
 vector<string> split(const string &);
 
 
-//
+//----- BENİM ÇÖZÜMÜM BURADAN BAŞLIYOR -----
 int diagonalDifference(vector<vector<int>> arr) {
 int pd=0, sd=0;
 int n=arr.size();
@@ -31,9 +31,8 @@ for(int i=0;i < n;i++)
     }
 }
 return abs(pd-sd);
-
 }
-
+//-------- BENİM ÇÖZÜMÜM BURADA BİTİYOR --------
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
