@@ -14,7 +14,7 @@ vector<string> split(const string &);
 
 
 
-//burdan
+//-----MY SOLUTION STARTS HERE -----
 int birthdayCakeCandles(vector<int> candles) {
 
     if(candles.empty()){
@@ -35,7 +35,7 @@ int birthdayCakeCandles(vector<int> candles) {
     return res;
 
 }
-//bura
+//-------- MY SOLUTION ENDS HERE--------
 
 int main()
 {
